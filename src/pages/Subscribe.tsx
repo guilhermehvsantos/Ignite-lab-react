@@ -26,7 +26,7 @@ export function Subscribe () {
     }
 
     return (
-        <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
+        <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center relative">
             <img src="/src/assets/Reacticon.svg" className="absolute"alt="" />
             <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto">
                 <div className="max-w-[640px]">
@@ -66,7 +66,10 @@ export function Subscribe () {
                 </div>
             </div>
             <img src="/src/assets/code.png" className="mt-10" alt="" />
+            <div className="absolute inset-x-0 bottom-0 w-[100%]">
             <Footer />
+            </div>
+            
         </div>
     );
 }
