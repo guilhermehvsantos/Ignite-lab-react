@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Logo } from "../components/Logo";
 import { useCreateSubscriberMutation } from "../graphql/generated";
 import Bgimage from "../assets/code.png"
+import Reacticon from "../assets/Reacticon.svg"
 import { Footer } from "../components/Footer";
 
 export function Subscribe () {
@@ -28,7 +29,7 @@ export function Subscribe () {
 
     return (
         <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center relative">
-            <img src="/src/assets/Reacticon.svg" className="absolute"alt="" />
+            <img src={Reacticon} className="absolute" alt="" />
             <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto">
                 <div className="max-w-[640px]">
                     <Logo />
