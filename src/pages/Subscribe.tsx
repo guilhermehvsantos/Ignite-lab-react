@@ -32,7 +32,7 @@ export function Subscribe () {
                 <div className="max-w-[640px]">
                     <Logo />
                     <h1 className="mt-8 text-[2.5rem] leading-tight text-gray-100">
-                        Desenvolvido durante evento da <a href="https://rocketseat.com.br/" target="_blank" className="font-bold text-purple-500 italic inline"><img className="inline w-[18rem]" src="/src/assets/rocketseat.svg" alt="" /></a> com <strong className="text-blue-400 italic opacity-1">React</strong>
+                        Desenvolvido durante evento da <a href="https://rocketseat.com.br/" target="_blank" className="font-bold text-purple-500 italic inline"><img className="inline w-[18rem]" src="https://www.rocketseat.com.br/assets/logos/rocketseat.svg" alt="RocketSeat" /></a> com <strong className="text-blue-400 italic opacity-1">React</strong>
                     </h1>
                     <p className="mt-4 text-gray-200 leading-relaxed">
                         Projeto do Ignite Lab, em apenas uma semana aprendi e pratiquei uma das tecnologias mais utilizadas e com alta demanda para acessar as melhores oportunidades do mercado.
